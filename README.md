@@ -10,6 +10,10 @@ To run the bot yourself, you will need:
 - [Pony ORM](https://ponyorm.com/)
 
 ## Setup
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/drmehmetaktass/mau_mau_bot)
+
+## Spesial Thanks For [Contributor](https://github.com/fjgaming212/UnoXrobot/contributors)
+
 - Get a bot token from [@BotFather](http://telegram.me/BotFather) and change configurations in `config.json`.
 - Convert all language files from `.po` files to `.mo` by executing the bash script `compile.sh` located in the `locales` folder.
   Another option is: `find . -maxdepth 2 -type d -name 'LC_MESSAGES' -exec bash -c 'msgfmt {}/unobot.po -o {}/unobot.mo' \;`.
